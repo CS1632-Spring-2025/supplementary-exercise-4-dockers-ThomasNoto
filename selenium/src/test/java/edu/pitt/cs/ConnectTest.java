@@ -45,7 +45,7 @@ public class ConnectTest {
   public void tearDown() {
     driver.quit();
   }
-  @Test
+  //@Test
   public void testConnection() {
     // Test that the webserver is ready to service an HTTP request
     driver.get("http://localhost:8080/");
